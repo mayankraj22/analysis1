@@ -120,4 +120,4 @@ plot(1:10)
 
 #run all commands in the other sourse file - test1.R
 
-source('test1.R')
+source('test1.r')
