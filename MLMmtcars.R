@@ -18,6 +18,5 @@ summary(lm(mpg ~ wt, data=mtcars))
 
 summary(lm(mpg ~ wt+ hp,data=mtcars))
 AIC(fit3)
-AIC((lm(mpg ~ wt + hp,data=mtcars))
-fit4=lm(mpg ~. , data=mtcars)    
+fit4=lm(mpg~ . ,data=mtcars)    
 AIC(fit4)    
